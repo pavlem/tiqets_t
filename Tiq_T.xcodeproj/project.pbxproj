@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BD9F09027AEA6DE000E1E36 /* Tiq_TApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F08F27AEA6DE000E1E36 /* Tiq_TApp.swift */; };
+		2BD9F0A127AEA6DF000E1E36 /* Tiq_TTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0A027AEA6DF000E1E36 /* Tiq_TTests.swift */; };
+		2BD9F0D627AEA759000E1E36 /* SearchCharacterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BB27AEA759000E1E36 /* SearchCharacterVM.swift */; };
+		2BD9F0D727AEA759000E1E36 /* CharacterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BC27AEA759000E1E36 /* CharacterVM.swift */; };
+		2BD9F0D827AEA759000E1E36 /* CharacterDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BD27AEA759000E1E36 /* CharacterDetailVM.swift */; };
+		2BD9F0D927AEA759000E1E36 /* CharactersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BE27AEA759000E1E36 /* CharactersVM.swift */; };
+		2BD9F0DA27AEA759000E1E36 /* StarWarsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C127AEA759000E1E36 /* StarWarsService.swift */; };
+		2BD9F0DB27AEA759000E1E36 /* CharaterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C227AEA759000E1E36 /* CharaterRequest.swift */; };
+		2BD9F0DC27AEA759000E1E36 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C327AEA759000E1E36 /* ImageHelper.swift */; };
+		2BD9F0DF27AEA759000E1E36 /* NetworkProvider in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C827AEA759000E1E36 /* NetworkProvider */; };
+		2BD9F0E027AEA759000E1E36 /* StarWarsFavoriteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CA27AEA759000E1E36 /* StarWarsFavoriteImage.swift */; };
+		2BD9F0E127AEA759000E1E36 /* StarWarsIconImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CB27AEA759000E1E36 /* StarWarsIconImageView.swift */; };
+		2BD9F0E227AEA759000E1E36 /* OfferingsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CC27AEA759000E1E36 /* OfferingsMainView.swift */; };
+		2BD9F0E327AEA759000E1E36 /* StarWarsCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CD27AEA759000E1E36 /* StarWarsCharacterDetailView.swift */; };
+		2BD9F0E427AEA759000E1E36 /* StarWarsCharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CE27AEA759000E1E36 /* StarWarsCharacterCell.swift */; };
+		2BD9F0E527AEA759000E1E36 /* StarWarsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CF27AEA759000E1E36 /* StarWarsInfoView.swift */; };
+		2BD9F0E627AEA759000E1E36 /* SearchCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D027AEA759000E1E36 /* SearchCharacterView.swift */; };
+		2BD9F0E727AEA759000E1E36 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D127AEA759000E1E36 /* LoadingView.swift */; };
+		2BD9F0E827AEA759000E1E36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D327AEA759000E1E36 /* Character.swift */; };
+		2BD9F0E927AEA759000E1E36 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D427AEA759000E1E36 /* Characters.swift */; };
+		2BD9F0EA27AEA759000E1E36 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D527AEA759000E1E36 /* Starship.swift */; };
+		2BD9F0EE27AEA7A9000E1E36 /* NetworkProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 2BD9F0ED27AEA7A9000E1E36 /* NetworkProvider */; };
+		2BD9F0F627AEA938000E1E36 /* offerings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F227AEA938000E1E36 /* offerings.json */; };
+		2BD9F0F727AEA938000E1E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F327AEA938000E1E36 /* Assets.xcassets */; };
+		2BD9F0F827AEA938000E1E36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F527AEA938000E1E36 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD9F09D27AEA6DF000E1E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD9F08427AEA6DE000E1E36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD9F08B27AEA6DE000E1E36;
+			remoteInfo = Tiq_T;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BD9F08C27AEA6DE000E1E36 /* Tiq_T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiq_T.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD9F08F27AEA6DE000E1E36 /* Tiq_TApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiq_TApp.swift; sourceTree = "<group>"; };
+		2BD9F09C27AEA6DF000E1E36 /* Tiq_TTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tiq_TTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD9F0A027AEA6DF000E1E36 /* Tiq_TTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiq_TTests.swift; sourceTree = "<group>"; };
+		2BD9F0BB27AEA759000E1E36 /* SearchCharacterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCharacterVM.swift; sourceTree = "<group>"; };
+		2BD9F0BC27AEA759000E1E36 /* CharacterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterVM.swift; sourceTree = "<group>"; };
+		2BD9F0BD27AEA759000E1E36 /* CharacterDetailVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailVM.swift; sourceTree = "<group>"; };
+		2BD9F0BE27AEA759000E1E36 /* CharactersVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersVM.swift; sourceTree = "<group>"; };
+		2BD9F0C127AEA759000E1E36 /* StarWarsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsService.swift; sourceTree = "<group>"; };
+		2BD9F0C227AEA759000E1E36 /* CharaterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharaterRequest.swift; sourceTree = "<group>"; };
+		2BD9F0C327AEA759000E1E36 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		2BD9F0C827AEA759000E1E36 /* NetworkProvider */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkProvider; sourceTree = "<group>"; };
+		2BD9F0CA27AEA759000E1E36 /* StarWarsFavoriteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsFavoriteImage.swift; sourceTree = "<group>"; };
+		2BD9F0CB27AEA759000E1E36 /* StarWarsIconImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsIconImageView.swift; sourceTree = "<group>"; };
+		2BD9F0CC27AEA759000E1E36 /* OfferingsMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingsMainView.swift; sourceTree = "<group>"; };
+		2BD9F0CD27AEA759000E1E36 /* StarWarsCharacterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacterDetailView.swift; sourceTree = "<group>"; };
+		2BD9F0CE27AEA759000E1E36 /* StarWarsCharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacterCell.swift; sourceTree = "<group>"; };
+		2BD9F0CF27AEA759000E1E36 /* StarWarsInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsInfoView.swift; sourceTree = "<group>"; };
+		2BD9F0D027AEA759000E1E36 /* SearchCharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCharacterView.swift; sourceTree = "<group>"; };
+		2BD9F0D127AEA759000E1E36 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2BD9F0D327AEA759000E1E36 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2BD9F0D427AEA759000E1E36 /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		2BD9F0D527AEA759000E1E36 /* Starship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		2BD9F0F227AEA938000E1E36 /* offerings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = offerings.json; sourceTree = "<group>"; };
+		2BD9F0F327AEA938000E1E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD9F0F527AEA938000E1E36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD9F08927AEA6DE000E1E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD9F0EE27AEA7A9000E1E36 /* NetworkProvider in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD9F09927AEA6DF000E1E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BD9F08327AEA6DE000E1E36 = {
+			isa = PBXGroup;
+			children = (
+				2BD9F08E27AEA6DE000E1E36 /* Tiq_T */,
+				2BD9F09F27AEA6DF000E1E36 /* Tiq_TTests */,
+				2BD9F08D27AEA6DE000E1E36 /* Products */,
+				2BD9F0EC27AEA7A9000E1E36 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD9F08D27AEA6DE000E1E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F08C27AEA6DE000E1E36 /* Tiq_T.app */,
+				2BD9F09C27AEA6DF000E1E36 /* Tiq_TTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD9F08E27AEA6DE000E1E36 /* Tiq_T */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0EB27AEA762000E1E36 /* App */,
+				2BD9F0BF27AEA759000E1E36 /* Libs */,
+				2BD9F0D227AEA759000E1E36 /* Models */,
+				2BD9F0C927AEA759000E1E36 /* Views */,
+				2BD9F0BA27AEA759000E1E36 /* ViewModels */,
+				2BD9F0F127AEA938000E1E36 /* Resources */,
+				2BD9F0C727AEA759000E1E36 /* Packets */,
+			);
+			path = Tiq_T;
+			sourceTree = "<group>";
+		};
+		2BD9F09F27AEA6DF000E1E36 /* Tiq_TTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0A027AEA6DF000E1E36 /* Tiq_TTests.swift */,
+			);
+			path = Tiq_TTests;
+			sourceTree = "<group>";
+		};
+		2BD9F0BA27AEA759000E1E36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0BB27AEA759000E1E36 /* SearchCharacterVM.swift */,
+				2BD9F0BC27AEA759000E1E36 /* CharacterVM.swift */,
+				2BD9F0BD27AEA759000E1E36 /* CharacterDetailVM.swift */,
+				2BD9F0BE27AEA759000E1E36 /* CharactersVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2BD9F0BF27AEA759000E1E36 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0C027AEA759000E1E36 /* Networking */,
+				2BD9F0C327AEA759000E1E36 /* ImageHelper.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		2BD9F0C027AEA759000E1E36 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0C127AEA759000E1E36 /* StarWarsService.swift */,
+				2BD9F0C227AEA759000E1E36 /* CharaterRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2BD9F0C727AEA759000E1E36 /* Packets */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0C827AEA759000E1E36 /* NetworkProvider */,
+			);
+			path = Packets;
+			sourceTree = "<group>";
+		};
+		2BD9F0C927AEA759000E1E36 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0CA27AEA759000E1E36 /* StarWarsFavoriteImage.swift */,
+				2BD9F0CB27AEA759000E1E36 /* StarWarsIconImageView.swift */,
+				2BD9F0CC27AEA759000E1E36 /* OfferingsMainView.swift */,
+				2BD9F0CD27AEA759000E1E36 /* StarWarsCharacterDetailView.swift */,
+				2BD9F0CE27AEA759000E1E36 /* StarWarsCharacterCell.swift */,
+				2BD9F0CF27AEA759000E1E36 /* StarWarsInfoView.swift */,
+				2BD9F0D027AEA759000E1E36 /* SearchCharacterView.swift */,
+				2BD9F0D127AEA759000E1E36 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BD9F0D227AEA759000E1E36 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0D327AEA759000E1E36 /* Character.swift */,
+				2BD9F0D427AEA759000E1E36 /* Characters.swift */,
+				2BD9F0D527AEA759000E1E36 /* Starship.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2BD9F0EB27AEA762000E1E36 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F08F27AEA6DE000E1E36 /* Tiq_TApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2BD9F0EC27AEA7A9000E1E36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BD9F0F127AEA938000E1E36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0F227AEA938000E1E36 /* offerings.json */,
+				2BD9F0F327AEA938000E1E36 /* Assets.xcassets */,
+				2BD9F0F427AEA938000E1E36 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BD9F0F427AEA938000E1E36 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F0F527AEA938000E1E36 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD9F08B27AEA6DE000E1E36 /* Tiq_T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD9F0B027AEA6DF000E1E36 /* Build configuration list for PBXNativeTarget "Tiq_T" */;
+			buildPhases = (
+				2BD9F08827AEA6DE000E1E36 /* Sources */,
+				2BD9F08927AEA6DE000E1E36 /* Frameworks */,
+				2BD9F08A27AEA6DE000E1E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tiq_T;
+			packageProductDependencies = (
+				2BD9F0ED27AEA7A9000E1E36 /* NetworkProvider */,
+			);
+			productName = Tiq_T;
+			productReference = 2BD9F08C27AEA6DE000E1E36 /* Tiq_T.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD9F09B27AEA6DF000E1E36 /* Tiq_TTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD9F0B327AEA6DF000E1E36 /* Build configuration list for PBXNativeTarget "Tiq_TTests" */;
+			buildPhases = (
+				2BD9F09827AEA6DF000E1E36 /* Sources */,
+				2BD9F09927AEA6DF000E1E36 /* Frameworks */,
+				2BD9F09A27AEA6DF000E1E36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD9F09E27AEA6DF000E1E36 /* PBXTargetDependency */,
+			);
+			name = Tiq_TTests;
+			productName = Tiq_TTests;
+			productReference = 2BD9F09C27AEA6DF000E1E36 /* Tiq_TTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD9F08427AEA6DE000E1E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2BD9F08B27AEA6DE000E1E36 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					2BD9F09B27AEA6DF000E1E36 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 2BD9F08B27AEA6DE000E1E36;
+					};
+				};
+			};
+			buildConfigurationList = 2BD9F08727AEA6DE000E1E36 /* Build configuration list for PBXProject "Tiq_T" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD9F08327AEA6DE000E1E36;
+			productRefGroup = 2BD9F08D27AEA6DE000E1E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD9F08B27AEA6DE000E1E36 /* Tiq_T */,
+				2BD9F09B27AEA6DF000E1E36 /* Tiq_TTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD9F08A27AEA6DE000E1E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD9F0F827AEA938000E1E36 /* Preview Assets.xcassets in Resources */,
+				2BD9F0DF27AEA759000E1E36 /* NetworkProvider in Resources */,
+				2BD9F0F727AEA938000E1E36 /* Assets.xcassets in Resources */,
+				2BD9F0F627AEA938000E1E36 /* offerings.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD9F09A27AEA6DF000E1E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD9F08827AEA6DE000E1E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD9F0E227AEA759000E1E36 /* OfferingsMainView.swift in Sources */,
+				2BD9F0D927AEA759000E1E36 /* CharactersVM.swift in Sources */,
+				2BD9F0E627AEA759000E1E36 /* SearchCharacterView.swift in Sources */,
+				2BD9F0E527AEA759000E1E36 /* StarWarsInfoView.swift in Sources */,
+				2BD9F0E727AEA759000E1E36 /* LoadingView.swift in Sources */,
+				2BD9F0DA27AEA759000E1E36 /* StarWarsService.swift in Sources */,
+				2BD9F0DC27AEA759000E1E36 /* ImageHelper.swift in Sources */,
+				2BD9F0E927AEA759000E1E36 /* Characters.swift in Sources */,
+				2BD9F0D727AEA759000E1E36 /* CharacterVM.swift in Sources */,
+				2BD9F0E327AEA759000E1E36 /* StarWarsCharacterDetailView.swift in Sources */,
+				2BD9F0E827AEA759000E1E36 /* Character.swift in Sources */,
+				2BD9F0EA27AEA759000E1E36 /* Starship.swift in Sources */,
+				2BD9F0E027AEA759000E1E36 /* StarWarsFavoriteImage.swift in Sources */,
+				2BD9F0DB27AEA759000E1E36 /* CharaterRequest.swift in Sources */,
+				2BD9F0D827AEA759000E1E36 /* CharacterDetailVM.swift in Sources */,
+				2BD9F0E127AEA759000E1E36 /* StarWarsIconImageView.swift in Sources */,
+				2BD9F09027AEA6DE000E1E36 /* Tiq_TApp.swift in Sources */,
+				2BD9F0E427AEA759000E1E36 /* StarWarsCharacterCell.swift in Sources */,
+				2BD9F0D627AEA759000E1E36 /* SearchCharacterVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD9F09827AEA6DF000E1E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD9F0A127AEA6DF000E1E36 /* Tiq_TTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD9F09E27AEA6DF000E1E36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD9F08B27AEA6DE000E1E36 /* Tiq_T */;
+			targetProxy = 2BD9F09D27AEA6DF000E1E36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BD9F0AE27AEA6DF000E1E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BD9F0AF27AEA6DF000E1E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD9F0B127AEA6DF000E1E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.Tiq-T";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD9F0B227AEA6DF000E1E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.Tiq-T";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BD9F0B427AEA6DF000E1E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.Tiq-TTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiq_T.app/Tiq_T";
+			};
+			name = Debug;
+		};
+		2BD9F0B527AEA6DF000E1E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.Tiq-TTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tiq_T.app/Tiq_T";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD9F08727AEA6DE000E1E36 /* Build configuration list for PBXProject "Tiq_T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD9F0AE27AEA6DF000E1E36 /* Debug */,
+				2BD9F0AF27AEA6DF000E1E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD9F0B027AEA6DF000E1E36 /* Build configuration list for PBXNativeTarget "Tiq_T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD9F0B127AEA6DF000E1E36 /* Debug */,
+				2BD9F0B227AEA6DF000E1E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD9F0B327AEA6DF000E1E36 /* Build configuration list for PBXNativeTarget "Tiq_TTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD9F0B427AEA6DF000E1E36 /* Debug */,
+				2BD9F0B527AEA6DF000E1E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BD9F0ED27AEA7A9000E1E36 /* NetworkProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkProvider;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2BD9F08427AEA6DE000E1E36 /* Project object */;
+}

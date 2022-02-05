@@ -1,6 +1,6 @@
 //
-//  tiqets_tApp.swift
-//  tiqets_t
+//  Tiq_TApp.swift
+//  Tiq_T
 //
 //  Created by Pavle Mijatovic on 5.2.22..
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct tiqets_tApp: App {
+struct Tiq_TApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OfferingsMainView()
         }
     }
 }

@@ -1,14 +1,14 @@
 //
-//  tiqets_tTests.swift
-//  tiqets_tTests
+//  Tiq_TTests.swift
+//  Tiq_TTests
 //
 //  Created by Pavle Mijatovic on 5.2.22..
 //
 
 import XCTest
-@testable import tiqets_t
+@testable import Tiq_T
 
-class tiqets_tTests: XCTestCase {
+class Tiq_TTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
