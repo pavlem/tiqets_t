@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BBACC7D27AE9ECA0001B547 /* tiqets_tApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */; };
+		2BBACC7F27AE9ECA0001B547 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC7E27AE9ECA0001B547 /* ContentView.swift */; };
+		2BBACC8127AE9ECC0001B547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBACC8027AE9ECC0001B547 /* Assets.xcassets */; };
+		2BBACC8427AE9ECC0001B547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBACC8327AE9ECC0001B547 /* Preview Assets.xcassets */; };
+		2BBACC8E27AE9ECC0001B547 /* tiqets_tTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC8D27AE9ECC0001B547 /* tiqets_tTests.swift */; };
+		2BBACC9827AE9ECC0001B547 /* tiqets_tUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC9727AE9ECC0001B547 /* tiqets_tUITests.swift */; };
+		2BBACC9A27AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC9927AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BBACC8A27AE9ECC0001B547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBACC7127AE9ECA0001B547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBACC7827AE9ECA0001B547;
+			remoteInfo = tiqets_t;
+		};
+		2BBACC9427AE9ECC0001B547 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BBACC7127AE9ECA0001B547 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBACC7827AE9ECA0001B547;
+			remoteInfo = tiqets_t;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BBACC7927AE9ECA0001B547 /* tiqets_t.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tiqets_t.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tApp.swift; sourceTree = "<group>"; };
+		2BBACC7E27AE9ECA0001B547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BBACC8027AE9ECC0001B547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BBACC8327AE9ECC0001B547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BBACC8927AE9ECC0001B547 /* tiqets_tTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiqets_tTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBACC8D27AE9ECC0001B547 /* tiqets_tTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tTests.swift; sourceTree = "<group>"; };
+		2BBACC9327AE9ECC0001B547 /* tiqets_tUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiqets_tUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BBACC9727AE9ECC0001B547 /* tiqets_tUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tUITests.swift; sourceTree = "<group>"; };
+		2BBACC9927AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BBACC7627AE9ECA0001B547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBACC8627AE9ECC0001B547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBACC9027AE9ECC0001B547 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BBACC7027AE9ECA0001B547 = {
+			isa = PBXGroup;
+			children = (
+				2BBACC7B27AE9ECA0001B547 /* tiqets_t */,
+				2BBACC8C27AE9ECC0001B547 /* tiqets_tTests */,
+				2BBACC9627AE9ECC0001B547 /* tiqets_tUITests */,
+				2BBACC7A27AE9ECA0001B547 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BBACC7A27AE9ECA0001B547 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BBACC7927AE9ECA0001B547 /* tiqets_t.app */,
+				2BBACC8927AE9ECC0001B547 /* tiqets_tTests.xctest */,
+				2BBACC9327AE9ECC0001B547 /* tiqets_tUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BBACC7B27AE9ECA0001B547 /* tiqets_t */ = {
+			isa = PBXGroup;
+			children = (
+				2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */,
+				2BBACC7E27AE9ECA0001B547 /* ContentView.swift */,
+				2BBACC8027AE9ECC0001B547 /* Assets.xcassets */,
+				2BBACC8227AE9ECC0001B547 /* Preview Content */,
+			);
+			path = tiqets_t;
+			sourceTree = "<group>";
+		};
+		2BBACC8227AE9ECC0001B547 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BBACC8327AE9ECC0001B547 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BBACC8C27AE9ECC0001B547 /* tiqets_tTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBACC8D27AE9ECC0001B547 /* tiqets_tTests.swift */,
+			);
+			path = tiqets_tTests;
+			sourceTree = "<group>";
+		};
+		2BBACC9627AE9ECC0001B547 /* tiqets_tUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BBACC9727AE9ECC0001B547 /* tiqets_tUITests.swift */,
+				2BBACC9927AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift */,
+			);
+			path = tiqets_tUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BBACC7827AE9ECA0001B547 /* tiqets_t */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBACC9D27AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_t" */;
+			buildPhases = (
+				2BBACC7527AE9ECA0001B547 /* Sources */,
+				2BBACC7627AE9ECA0001B547 /* Frameworks */,
+				2BBACC7727AE9ECA0001B547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiqets_t;
+			productName = tiqets_t;
+			productReference = 2BBACC7927AE9ECA0001B547 /* tiqets_t.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BBACC8827AE9ECC0001B547 /* tiqets_tTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBACCA027AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_tTests" */;
+			buildPhases = (
+				2BBACC8527AE9ECC0001B547 /* Sources */,
+				2BBACC8627AE9ECC0001B547 /* Frameworks */,
+				2BBACC8727AE9ECC0001B547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBACC8B27AE9ECC0001B547 /* PBXTargetDependency */,
+			);
+			name = tiqets_tTests;
+			productName = tiqets_tTests;
+			productReference = 2BBACC8927AE9ECC0001B547 /* tiqets_tTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BBACC9227AE9ECC0001B547 /* tiqets_tUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BBACCA327AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_tUITests" */;
+			buildPhases = (
+				2BBACC8F27AE9ECC0001B547 /* Sources */,
+				2BBACC9027AE9ECC0001B547 /* Frameworks */,
+				2BBACC9127AE9ECC0001B547 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BBACC9527AE9ECC0001B547 /* PBXTargetDependency */,
+			);
+			name = tiqets_tUITests;
+			productName = tiqets_tUITests;
+			productReference = 2BBACC9327AE9ECC0001B547 /* tiqets_tUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BBACC7127AE9ECA0001B547 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2BBACC7827AE9ECA0001B547 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					2BBACC8827AE9ECC0001B547 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 2BBACC7827AE9ECA0001B547;
+					};
+					2BBACC9227AE9ECC0001B547 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 2BBACC7827AE9ECA0001B547;
+					};
+				};
+			};
+			buildConfigurationList = 2BBACC7427AE9ECA0001B547 /* Build configuration list for PBXProject "tiqets_t" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BBACC7027AE9ECA0001B547;
+			productRefGroup = 2BBACC7A27AE9ECA0001B547 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BBACC7827AE9ECA0001B547 /* tiqets_t */,
+				2BBACC8827AE9ECC0001B547 /* tiqets_tTests */,
+				2BBACC9227AE9ECC0001B547 /* tiqets_tUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BBACC7727AE9ECA0001B547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBACC8427AE9ECC0001B547 /* Preview Assets.xcassets in Resources */,
+				2BBACC8127AE9ECC0001B547 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBACC8727AE9ECC0001B547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBACC9127AE9ECC0001B547 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BBACC7527AE9ECA0001B547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBACC7F27AE9ECA0001B547 /* ContentView.swift in Sources */,
+				2BBACC7D27AE9ECA0001B547 /* tiqets_tApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBACC8527AE9ECC0001B547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBACC8E27AE9ECC0001B547 /* tiqets_tTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BBACC8F27AE9ECC0001B547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BBACC9A27AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift in Sources */,
+				2BBACC9827AE9ECC0001B547 /* tiqets_tUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BBACC8B27AE9ECC0001B547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBACC7827AE9ECA0001B547 /* tiqets_t */;
+			targetProxy = 2BBACC8A27AE9ECC0001B547 /* PBXContainerItemProxy */;
+		};
+		2BBACC9527AE9ECC0001B547 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BBACC7827AE9ECA0001B547 /* tiqets_t */;
+			targetProxy = 2BBACC9427AE9ECC0001B547 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BBACC9B27AE9ECC0001B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BBACC9C27AE9ECC0001B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BBACC9E27AE9ECC0001B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tiqets_t/Preview Content\"";
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-t";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BBACC9F27AE9ECC0001B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tiqets_t/Preview Content\"";
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-t";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2BBACCA127AE9ECC0001B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-tTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiqets_t.app/tiqets_t";
+			};
+			name = Debug;
+		};
+		2BBACCA227AE9ECC0001B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-tTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tiqets_t.app/tiqets_t";
+			};
+			name = Release;
+		};
+		2BBACCA427AE9ECC0001B547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-tUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tiqets_t;
+			};
+			name = Debug;
+		};
+		2BBACCA527AE9ECC0001B547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G5ZMJZYMZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-tUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tiqets_t;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BBACC7427AE9ECA0001B547 /* Build configuration list for PBXProject "tiqets_t" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBACC9B27AE9ECC0001B547 /* Debug */,
+				2BBACC9C27AE9ECC0001B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBACC9D27AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_t" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBACC9E27AE9ECC0001B547 /* Debug */,
+				2BBACC9F27AE9ECC0001B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBACCA027AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_tTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBACCA127AE9ECC0001B547 /* Debug */,
+				2BBACCA227AE9ECC0001B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BBACCA327AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_tUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BBACCA427AE9ECC0001B547 /* Debug */,
+				2BBACCA527AE9ECC0001B547 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BBACC7127AE9ECA0001B547 /* Project object */;
+}
