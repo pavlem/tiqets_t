@@ -8,30 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		2BD9F09027AEA6DE000E1E36 /* Tiq_TApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F08F27AEA6DE000E1E36 /* Tiq_TApp.swift */; };
-		2BD9F0A127AEA6DF000E1E36 /* Tiq_TTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0A027AEA6DF000E1E36 /* Tiq_TTests.swift */; };
-		2BD9F0D627AEA759000E1E36 /* SearchCharacterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BB27AEA759000E1E36 /* SearchCharacterVM.swift */; };
-		2BD9F0D727AEA759000E1E36 /* CharacterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BC27AEA759000E1E36 /* CharacterVM.swift */; };
-		2BD9F0D827AEA759000E1E36 /* CharacterDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BD27AEA759000E1E36 /* CharacterDetailVM.swift */; };
-		2BD9F0D927AEA759000E1E36 /* CharactersVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BE27AEA759000E1E36 /* CharactersVM.swift */; };
-		2BD9F0DA27AEA759000E1E36 /* StarWarsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C127AEA759000E1E36 /* StarWarsService.swift */; };
-		2BD9F0DB27AEA759000E1E36 /* CharaterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C227AEA759000E1E36 /* CharaterRequest.swift */; };
+		2BD9F0D727AEA759000E1E36 /* VenueAndExibitionCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BC27AEA759000E1E36 /* VenueAndExibitionCellVM.swift */; };
+		2BD9F0D827AEA759000E1E36 /* VenueAndExibitionDetaillVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BD27AEA759000E1E36 /* VenueAndExibitionDetaillVM.swift */; };
+		2BD9F0D927AEA759000E1E36 /* VenuesAndExibitionsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0BE27AEA759000E1E36 /* VenuesAndExibitionsVM.swift */; };
+		2BD9F0DA27AEA759000E1E36 /* VenueAndExibitionWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C127AEA759000E1E36 /* VenueAndExibitionWeb.swift */; };
 		2BD9F0DC27AEA759000E1E36 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C327AEA759000E1E36 /* ImageHelper.swift */; };
 		2BD9F0DF27AEA759000E1E36 /* NetworkProvider in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0C827AEA759000E1E36 /* NetworkProvider */; };
-		2BD9F0E027AEA759000E1E36 /* StarWarsFavoriteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CA27AEA759000E1E36 /* StarWarsFavoriteImage.swift */; };
-		2BD9F0E127AEA759000E1E36 /* StarWarsIconImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CB27AEA759000E1E36 /* StarWarsIconImageView.swift */; };
-		2BD9F0E227AEA759000E1E36 /* OfferingsMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CC27AEA759000E1E36 /* OfferingsMainView.swift */; };
-		2BD9F0E327AEA759000E1E36 /* StarWarsCharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CD27AEA759000E1E36 /* StarWarsCharacterDetailView.swift */; };
-		2BD9F0E427AEA759000E1E36 /* StarWarsCharacterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CE27AEA759000E1E36 /* StarWarsCharacterCell.swift */; };
-		2BD9F0E527AEA759000E1E36 /* StarWarsInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CF27AEA759000E1E36 /* StarWarsInfoView.swift */; };
-		2BD9F0E627AEA759000E1E36 /* SearchCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D027AEA759000E1E36 /* SearchCharacterView.swift */; };
+		2BD9F0E027AEA759000E1E36 /* VenueAndExibitionFavoriteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CA27AEA759000E1E36 /* VenueAndExibitionFavoriteImage.swift */; };
+		2BD9F0E127AEA759000E1E36 /* VenueAndExibitionImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CB27AEA759000E1E36 /* VenueAndExibitionImageView.swift */; };
+		2BD9F0E227AEA759000E1E36 /* VenuesAndExibitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CC27AEA759000E1E36 /* VenuesAndExibitionsView.swift */; };
+		2BD9F0E327AEA759000E1E36 /* VenueAndExibitionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CD27AEA759000E1E36 /* VenueAndExibitionDetailView.swift */; };
+		2BD9F0E427AEA759000E1E36 /* VenueAndExibitionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0CE27AEA759000E1E36 /* VenueAndExibitionCell.swift */; };
 		2BD9F0E727AEA759000E1E36 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D127AEA759000E1E36 /* LoadingView.swift */; };
-		2BD9F0E827AEA759000E1E36 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D327AEA759000E1E36 /* Character.swift */; };
-		2BD9F0E927AEA759000E1E36 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D427AEA759000E1E36 /* Characters.swift */; };
-		2BD9F0EA27AEA759000E1E36 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D527AEA759000E1E36 /* Starship.swift */; };
+		2BD9F0E827AEA759000E1E36 /* VenueAndExibition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0D327AEA759000E1E36 /* VenueAndExibition.swift */; };
 		2BD9F0EE27AEA7A9000E1E36 /* NetworkProvider in Frameworks */ = {isa = PBXBuildFile; productRef = 2BD9F0ED27AEA7A9000E1E36 /* NetworkProvider */; };
 		2BD9F0F627AEA938000E1E36 /* offerings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F227AEA938000E1E36 /* offerings.json */; };
 		2BD9F0F727AEA938000E1E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F327AEA938000E1E36 /* Assets.xcassets */; };
 		2BD9F0F827AEA938000E1E36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F527AEA938000E1E36 /* Preview Assets.xcassets */; };
+		2BD9F0FA27B082CF000E1E36 /* VenueAndExibitionLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0F927B082CF000E1E36 /* VenueAndExibitionLocal.swift */; };
+		2BD9F0FC27B083DC000E1E36 /* VenueAndExibitionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F0FB27B083DC000E1E36 /* VenueAndExibitionProtocol.swift */; };
+		2BD9F10227B1B626000E1E36 /* VenueAndExibitionFavoriteImageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F10127B1B626000E1E36 /* VenueAndExibitionFavoriteImageVM.swift */; };
+		2BD9F10527B25785000E1E36 /* VenuesAndExibitionsVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD9F10427B25785000E1E36 /* VenuesAndExibitionsVMTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,29 +45,26 @@
 		2BD9F08C27AEA6DE000E1E36 /* Tiq_T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiq_T.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD9F08F27AEA6DE000E1E36 /* Tiq_TApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiq_TApp.swift; sourceTree = "<group>"; };
 		2BD9F09C27AEA6DF000E1E36 /* Tiq_TTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tiq_TTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BD9F0A027AEA6DF000E1E36 /* Tiq_TTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tiq_TTests.swift; sourceTree = "<group>"; };
-		2BD9F0BB27AEA759000E1E36 /* SearchCharacterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCharacterVM.swift; sourceTree = "<group>"; };
-		2BD9F0BC27AEA759000E1E36 /* CharacterVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterVM.swift; sourceTree = "<group>"; };
-		2BD9F0BD27AEA759000E1E36 /* CharacterDetailVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterDetailVM.swift; sourceTree = "<group>"; };
-		2BD9F0BE27AEA759000E1E36 /* CharactersVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersVM.swift; sourceTree = "<group>"; };
-		2BD9F0C127AEA759000E1E36 /* StarWarsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsService.swift; sourceTree = "<group>"; };
-		2BD9F0C227AEA759000E1E36 /* CharaterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharaterRequest.swift; sourceTree = "<group>"; };
+		2BD9F0BC27AEA759000E1E36 /* VenueAndExibitionCellVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionCellVM.swift; sourceTree = "<group>"; };
+		2BD9F0BD27AEA759000E1E36 /* VenueAndExibitionDetaillVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionDetaillVM.swift; sourceTree = "<group>"; };
+		2BD9F0BE27AEA759000E1E36 /* VenuesAndExibitionsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesAndExibitionsVM.swift; sourceTree = "<group>"; };
+		2BD9F0C127AEA759000E1E36 /* VenueAndExibitionWeb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionWeb.swift; sourceTree = "<group>"; };
 		2BD9F0C327AEA759000E1E36 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
 		2BD9F0C827AEA759000E1E36 /* NetworkProvider */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = NetworkProvider; sourceTree = "<group>"; };
-		2BD9F0CA27AEA759000E1E36 /* StarWarsFavoriteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsFavoriteImage.swift; sourceTree = "<group>"; };
-		2BD9F0CB27AEA759000E1E36 /* StarWarsIconImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsIconImageView.swift; sourceTree = "<group>"; };
-		2BD9F0CC27AEA759000E1E36 /* OfferingsMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfferingsMainView.swift; sourceTree = "<group>"; };
-		2BD9F0CD27AEA759000E1E36 /* StarWarsCharacterDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacterDetailView.swift; sourceTree = "<group>"; };
-		2BD9F0CE27AEA759000E1E36 /* StarWarsCharacterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsCharacterCell.swift; sourceTree = "<group>"; };
-		2BD9F0CF27AEA759000E1E36 /* StarWarsInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarWarsInfoView.swift; sourceTree = "<group>"; };
-		2BD9F0D027AEA759000E1E36 /* SearchCharacterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCharacterView.swift; sourceTree = "<group>"; };
+		2BD9F0CA27AEA759000E1E36 /* VenueAndExibitionFavoriteImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionFavoriteImage.swift; sourceTree = "<group>"; };
+		2BD9F0CB27AEA759000E1E36 /* VenueAndExibitionImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionImageView.swift; sourceTree = "<group>"; };
+		2BD9F0CC27AEA759000E1E36 /* VenuesAndExibitionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesAndExibitionsView.swift; sourceTree = "<group>"; };
+		2BD9F0CD27AEA759000E1E36 /* VenueAndExibitionDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionDetailView.swift; sourceTree = "<group>"; };
+		2BD9F0CE27AEA759000E1E36 /* VenueAndExibitionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionCell.swift; sourceTree = "<group>"; };
 		2BD9F0D127AEA759000E1E36 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		2BD9F0D327AEA759000E1E36 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		2BD9F0D427AEA759000E1E36 /* Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
-		2BD9F0D527AEA759000E1E36 /* Starship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		2BD9F0D327AEA759000E1E36 /* VenueAndExibition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenueAndExibition.swift; sourceTree = "<group>"; };
 		2BD9F0F227AEA938000E1E36 /* offerings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = offerings.json; sourceTree = "<group>"; };
 		2BD9F0F327AEA938000E1E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BD9F0F527AEA938000E1E36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BD9F0F927B082CF000E1E36 /* VenueAndExibitionLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionLocal.swift; sourceTree = "<group>"; };
+		2BD9F0FB27B083DC000E1E36 /* VenueAndExibitionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionProtocol.swift; sourceTree = "<group>"; };
+		2BD9F10127B1B626000E1E36 /* VenueAndExibitionFavoriteImageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueAndExibitionFavoriteImageVM.swift; sourceTree = "<group>"; };
+		2BD9F10427B25785000E1E36 /* VenuesAndExibitionsVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenuesAndExibitionsVMTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				2BD9F0EB27AEA762000E1E36 /* App */,
-				2BD9F0BF27AEA759000E1E36 /* Libs */,
 				2BD9F0D227AEA759000E1E36 /* Models */,
 				2BD9F0C927AEA759000E1E36 /* Views */,
 				2BD9F0BA27AEA759000E1E36 /* ViewModels */,
+				2BD9F0BF27AEA759000E1E36 /* Libs */,
 				2BD9F0F127AEA938000E1E36 /* Resources */,
 				2BD9F0C727AEA759000E1E36 /* Packets */,
 			);
@@ -128,7 +122,7 @@
 		2BD9F09F27AEA6DF000E1E36 /* Tiq_TTests */ = {
 			isa = PBXGroup;
 			children = (
-				2BD9F0A027AEA6DF000E1E36 /* Tiq_TTests.swift */,
+				2BD9F10627B259F5000E1E36 /* ViewModels */,
 			);
 			path = Tiq_TTests;
 			sourceTree = "<group>";
@@ -136,10 +130,10 @@
 		2BD9F0BA27AEA759000E1E36 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				2BD9F0BB27AEA759000E1E36 /* SearchCharacterVM.swift */,
-				2BD9F0BC27AEA759000E1E36 /* CharacterVM.swift */,
-				2BD9F0BD27AEA759000E1E36 /* CharacterDetailVM.swift */,
-				2BD9F0BE27AEA759000E1E36 /* CharactersVM.swift */,
+				2BD9F0BE27AEA759000E1E36 /* VenuesAndExibitionsVM.swift */,
+				2BD9F0BC27AEA759000E1E36 /* VenueAndExibitionCellVM.swift */,
+				2BD9F0BD27AEA759000E1E36 /* VenueAndExibitionDetaillVM.swift */,
+				2BD9F10127B1B626000E1E36 /* VenueAndExibitionFavoriteImageVM.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -148,6 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				2BD9F0C027AEA759000E1E36 /* Networking */,
+				2BD9F0FB27B083DC000E1E36 /* VenueAndExibitionProtocol.swift */,
+				2BD9F0F927B082CF000E1E36 /* VenueAndExibitionLocal.swift */,
 				2BD9F0C327AEA759000E1E36 /* ImageHelper.swift */,
 			);
 			path = Libs;
@@ -156,8 +152,7 @@
 		2BD9F0C027AEA759000E1E36 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				2BD9F0C127AEA759000E1E36 /* StarWarsService.swift */,
-				2BD9F0C227AEA759000E1E36 /* CharaterRequest.swift */,
+				2BD9F0C127AEA759000E1E36 /* VenueAndExibitionWeb.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -173,13 +168,11 @@
 		2BD9F0C927AEA759000E1E36 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2BD9F0CA27AEA759000E1E36 /* StarWarsFavoriteImage.swift */,
-				2BD9F0CB27AEA759000E1E36 /* StarWarsIconImageView.swift */,
-				2BD9F0CC27AEA759000E1E36 /* OfferingsMainView.swift */,
-				2BD9F0CD27AEA759000E1E36 /* StarWarsCharacterDetailView.swift */,
-				2BD9F0CE27AEA759000E1E36 /* StarWarsCharacterCell.swift */,
-				2BD9F0CF27AEA759000E1E36 /* StarWarsInfoView.swift */,
-				2BD9F0D027AEA759000E1E36 /* SearchCharacterView.swift */,
+				2BD9F0CC27AEA759000E1E36 /* VenuesAndExibitionsView.swift */,
+				2BD9F0CE27AEA759000E1E36 /* VenueAndExibitionCell.swift */,
+				2BD9F0CD27AEA759000E1E36 /* VenueAndExibitionDetailView.swift */,
+				2BD9F0CA27AEA759000E1E36 /* VenueAndExibitionFavoriteImage.swift */,
+				2BD9F0CB27AEA759000E1E36 /* VenueAndExibitionImageView.swift */,
 				2BD9F0D127AEA759000E1E36 /* LoadingView.swift */,
 			);
 			path = Views;
@@ -188,9 +181,7 @@
 		2BD9F0D227AEA759000E1E36 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2BD9F0D327AEA759000E1E36 /* Character.swift */,
-				2BD9F0D427AEA759000E1E36 /* Characters.swift */,
-				2BD9F0D527AEA759000E1E36 /* Starship.swift */,
+				2BD9F0D327AEA759000E1E36 /* VenueAndExibition.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +217,14 @@
 				2BD9F0F527AEA938000E1E36 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BD9F10627B259F5000E1E36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2BD9F10427B25785000E1E36 /* VenuesAndExibitionsVMTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -333,25 +332,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD9F0E227AEA759000E1E36 /* OfferingsMainView.swift in Sources */,
-				2BD9F0D927AEA759000E1E36 /* CharactersVM.swift in Sources */,
-				2BD9F0E627AEA759000E1E36 /* SearchCharacterView.swift in Sources */,
-				2BD9F0E527AEA759000E1E36 /* StarWarsInfoView.swift in Sources */,
+				2BD9F0E227AEA759000E1E36 /* VenuesAndExibitionsView.swift in Sources */,
+				2BD9F0D927AEA759000E1E36 /* VenuesAndExibitionsVM.swift in Sources */,
 				2BD9F0E727AEA759000E1E36 /* LoadingView.swift in Sources */,
-				2BD9F0DA27AEA759000E1E36 /* StarWarsService.swift in Sources */,
+				2BD9F0DA27AEA759000E1E36 /* VenueAndExibitionWeb.swift in Sources */,
 				2BD9F0DC27AEA759000E1E36 /* ImageHelper.swift in Sources */,
-				2BD9F0E927AEA759000E1E36 /* Characters.swift in Sources */,
-				2BD9F0D727AEA759000E1E36 /* CharacterVM.swift in Sources */,
-				2BD9F0E327AEA759000E1E36 /* StarWarsCharacterDetailView.swift in Sources */,
-				2BD9F0E827AEA759000E1E36 /* Character.swift in Sources */,
-				2BD9F0EA27AEA759000E1E36 /* Starship.swift in Sources */,
-				2BD9F0E027AEA759000E1E36 /* StarWarsFavoriteImage.swift in Sources */,
-				2BD9F0DB27AEA759000E1E36 /* CharaterRequest.swift in Sources */,
-				2BD9F0D827AEA759000E1E36 /* CharacterDetailVM.swift in Sources */,
-				2BD9F0E127AEA759000E1E36 /* StarWarsIconImageView.swift in Sources */,
+				2BD9F0D727AEA759000E1E36 /* VenueAndExibitionCellVM.swift in Sources */,
+				2BD9F0E327AEA759000E1E36 /* VenueAndExibitionDetailView.swift in Sources */,
+				2BD9F0FC27B083DC000E1E36 /* VenueAndExibitionProtocol.swift in Sources */,
+				2BD9F10227B1B626000E1E36 /* VenueAndExibitionFavoriteImageVM.swift in Sources */,
+				2BD9F0E827AEA759000E1E36 /* VenueAndExibition.swift in Sources */,
+				2BD9F0FA27B082CF000E1E36 /* VenueAndExibitionLocal.swift in Sources */,
+				2BD9F0E027AEA759000E1E36 /* VenueAndExibitionFavoriteImage.swift in Sources */,
+				2BD9F0D827AEA759000E1E36 /* VenueAndExibitionDetaillVM.swift in Sources */,
+				2BD9F0E127AEA759000E1E36 /* VenueAndExibitionImageView.swift in Sources */,
 				2BD9F09027AEA6DE000E1E36 /* Tiq_TApp.swift in Sources */,
-				2BD9F0E427AEA759000E1E36 /* StarWarsCharacterCell.swift in Sources */,
-				2BD9F0D627AEA759000E1E36 /* SearchCharacterVM.swift in Sources */,
+				2BD9F0E427AEA759000E1E36 /* VenueAndExibitionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BD9F0A127AEA6DF000E1E36 /* Tiq_TTests.swift in Sources */,
+				2BD9F10527B25785000E1E36 /* VenuesAndExibitionsVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

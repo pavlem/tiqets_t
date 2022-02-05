@@ -9,9 +9,5 @@ import SwiftUI
 
 @main
 struct Tiq_TApp: App {
-    var body: some Scene {
-        WindowGroup {
-            OfferingsMainView()
-        }
-    }
+    var body: some Scene { WindowGroup { VenuesAndExibitionsView() } }
 }

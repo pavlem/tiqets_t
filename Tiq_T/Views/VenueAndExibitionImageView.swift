@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct StarWarsIconImageView: View {
+struct VenueAndExibitionImageView: View {
     
     var image: UIImage
     
