@@ -10,21 +10,12 @@
 		2BBACC7D27AE9ECA0001B547 /* tiqets_tApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */; };
 		2BBACC7F27AE9ECA0001B547 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC7E27AE9ECA0001B547 /* ContentView.swift */; };
 		2BBACC8127AE9ECC0001B547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBACC8027AE9ECC0001B547 /* Assets.xcassets */; };
-		2BBACC8427AE9ECC0001B547 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BBACC8327AE9ECC0001B547 /* Preview Assets.xcassets */; };
 		2BBACC8E27AE9ECC0001B547 /* tiqets_tTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC8D27AE9ECC0001B547 /* tiqets_tTests.swift */; };
-		2BBACC9827AE9ECC0001B547 /* tiqets_tUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC9727AE9ECC0001B547 /* tiqets_tUITests.swift */; };
-		2BBACC9A27AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BBACC9927AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift */; };
+		2BBACCA927AEA0070001B547 /* offerings.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BBACCA827AEA0070001B547 /* offerings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2BBACC8A27AE9ECC0001B547 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2BBACC7127AE9ECA0001B547 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2BBACC7827AE9ECA0001B547;
-			remoteInfo = tiqets_t;
-		};
-		2BBACC9427AE9ECC0001B547 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2BBACC7127AE9ECA0001B547 /* Project object */;
 			proxyType = 1;
@@ -38,12 +29,9 @@
 		2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tApp.swift; sourceTree = "<group>"; };
 		2BBACC7E27AE9ECA0001B547 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BBACC8027AE9ECC0001B547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BBACC8327AE9ECC0001B547 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BBACC8927AE9ECC0001B547 /* tiqets_tTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiqets_tTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBACC8D27AE9ECC0001B547 /* tiqets_tTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tTests.swift; sourceTree = "<group>"; };
-		2BBACC9327AE9ECC0001B547 /* tiqets_tUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tiqets_tUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BBACC9727AE9ECC0001B547 /* tiqets_tUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tUITests.swift; sourceTree = "<group>"; };
-		2BBACC9927AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tiqets_tUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2BBACCA827AEA0070001B547 /* offerings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = offerings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BBACC9027AE9ECC0001B547 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -76,7 +57,6 @@
 			children = (
 				2BBACC7B27AE9ECA0001B547 /* tiqets_t */,
 				2BBACC8C27AE9ECC0001B547 /* tiqets_tTests */,
-				2BBACC9627AE9ECC0001B547 /* tiqets_tUITests */,
 				2BBACC7A27AE9ECA0001B547 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +66,6 @@
 			children = (
 				2BBACC7927AE9ECA0001B547 /* tiqets_t.app */,
 				2BBACC8927AE9ECC0001B547 /* tiqets_tTests.xctest */,
-				2BBACC9327AE9ECC0001B547 /* tiqets_tUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,20 +73,11 @@
 		2BBACC7B27AE9ECA0001B547 /* tiqets_t */ = {
 			isa = PBXGroup;
 			children = (
-				2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */,
+				2BBACCA727AE9F880001B547 /* App */,
+				2BBACCA627AE9F670001B547 /* Resources */,
 				2BBACC7E27AE9ECA0001B547 /* ContentView.swift */,
-				2BBACC8027AE9ECC0001B547 /* Assets.xcassets */,
-				2BBACC8227AE9ECC0001B547 /* Preview Content */,
 			);
 			path = tiqets_t;
-			sourceTree = "<group>";
-		};
-		2BBACC8227AE9ECC0001B547 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2BBACC8327AE9ECC0001B547 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2BBACC8C27AE9ECC0001B547 /* tiqets_tTests */ = {
@@ -118,13 +88,21 @@
 			path = tiqets_tTests;
 			sourceTree = "<group>";
 		};
-		2BBACC9627AE9ECC0001B547 /* tiqets_tUITests */ = {
+		2BBACCA627AE9F670001B547 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2BBACC9727AE9ECC0001B547 /* tiqets_tUITests.swift */,
-				2BBACC9927AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift */,
+				2BBACCA827AEA0070001B547 /* offerings.json */,
+				2BBACC8027AE9ECC0001B547 /* Assets.xcassets */,
 			);
-			path = tiqets_tUITests;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2BBACCA727AE9F880001B547 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2BBACC7C27AE9ECA0001B547 /* tiqets_tApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +143,6 @@
 			productReference = 2BBACC8927AE9ECC0001B547 /* tiqets_tTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2BBACC9227AE9ECC0001B547 /* tiqets_tUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2BBACCA327AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_tUITests" */;
-			buildPhases = (
-				2BBACC8F27AE9ECC0001B547 /* Sources */,
-				2BBACC9027AE9ECC0001B547 /* Frameworks */,
-				2BBACC9127AE9ECC0001B547 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2BBACC9527AE9ECC0001B547 /* PBXTargetDependency */,
-			);
-			name = tiqets_tUITests;
-			productName = tiqets_tUITests;
-			productReference = 2BBACC9327AE9ECC0001B547 /* tiqets_tUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +157,6 @@
 						CreatedOnToolsVersion = 13.2;
 					};
 					2BBACC8827AE9ECC0001B547 = {
-						CreatedOnToolsVersion = 13.2;
-						TestTargetID = 2BBACC7827AE9ECA0001B547;
-					};
-					2BBACC9227AE9ECC0001B547 = {
 						CreatedOnToolsVersion = 13.2;
 						TestTargetID = 2BBACC7827AE9ECA0001B547;
 					};
@@ -221,7 +177,6 @@
 			targets = (
 				2BBACC7827AE9ECA0001B547 /* tiqets_t */,
 				2BBACC8827AE9ECC0001B547 /* tiqets_tTests */,
-				2BBACC9227AE9ECC0001B547 /* tiqets_tUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,19 +186,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BBACC8427AE9ECC0001B547 /* Preview Assets.xcassets in Resources */,
 				2BBACC8127AE9ECC0001B547 /* Assets.xcassets in Resources */,
+				2BBACCA927AEA0070001B547 /* offerings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2BBACC8727AE9ECC0001B547 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2BBACC9127AE9ECC0001B547 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -270,15 +218,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2BBACC8F27AE9ECC0001B547 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2BBACC9A27AE9ECC0001B547 /* tiqets_tUITestsLaunchTests.swift in Sources */,
-				2BBACC9827AE9ECC0001B547 /* tiqets_tUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +225,6 @@
 			isa = PBXTargetDependency;
 			target = 2BBACC7827AE9ECA0001B547 /* tiqets_t */;
 			targetProxy = 2BBACC8A27AE9ECC0001B547 /* PBXContainerItemProxy */;
-		};
-		2BBACC9527AE9ECC0001B547 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2BBACC7827AE9ECA0001B547 /* tiqets_t */;
-			targetProxy = 2BBACC9427AE9ECC0001B547 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -418,13 +352,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tiqets_t/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = G5ZMJZYMZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -447,13 +382,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"tiqets_t/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = G5ZMJZYMZX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -509,42 +445,6 @@
 			};
 			name = Release;
 		};
-		2BBACCA427AE9ECC0001B547 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5ZMJZYMZX;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-tUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = tiqets_t;
-			};
-			name = Debug;
-		};
-		2BBACCA527AE9ECC0001B547 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5ZMJZYMZX;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.awesome.com.tiqets-tUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = tiqets_t;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -571,15 +471,6 @@
 			buildConfigurations = (
 				2BBACCA127AE9ECC0001B547 /* Debug */,
 				2BBACCA227AE9ECC0001B547 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2BBACCA327AE9ECC0001B547 /* Build configuration list for PBXNativeTarget "tiqets_tUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2BBACCA427AE9ECC0001B547 /* Debug */,
-				2BBACCA527AE9ECC0001B547 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
