@@ -9,14 +9,16 @@ struct VenueAndExibitionDetailView: View {
     
     var body: some View {
         VStack {
-            Image(uiImage: vm.image)
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .frame(width: vm.imageFrameWidth, height: vm.imageFrameWidth)
-                .clipped()
-                .cornerRadius(vm.cornerRadius)
-                .shadow(radius: vm.shadowRadius)
-                .padding(.bottom)
+            NavigationLink(destination: VenumeOrExhibitionImage(uiImage: vm.image)) {
+                Image(uiImage: vm.image)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: vm.imageFrameWidth, height: vm.imageFrameWidth)
+                    .clipped()
+                    .cornerRadius(vm.cornerRadius)
+                    .shadow(radius: vm.shadowRadius)
+                    .padding(.bottom)
+            }
             ScrollView {
                 Text(vm.details)
                     .font(Font.largeTitle.weight(.bold))
@@ -29,4 +31,3 @@ struct VenueAndExibitionDetailView: View {
         .padding().navigationBarTitle(Text(vm.title), displayMode: .inline)
     }
 }
-

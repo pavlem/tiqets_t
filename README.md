@@ -7,6 +7,7 @@ Based on the project request, the following has been done:
 * Just build the app and you will see the loading screen while the Venues collections data is being fetched from the local file simulating the API with a 1 second delay. When the data of venues and exhibitions is fetched, Loading Screen will disappear. 
 * The main screen is a list of all of the venues and exhibitions
 * Tap on any venue or exhibition to go to his detail page
+* Tap on a image to go to a simple gallery 
 * Pull down on a list to reveal the FILTER functionality where you can search by Name, Venue or Exibiton, Price and Rating
 * There is a STAR next to the venue or exhibition image, indicating is he a favourite or not
 * In venue or exhibition details page you have some info. Also there is an option to add it to favourites (currently this feature is doing the local caching only)

@@ -32,7 +32,7 @@ class VenueAndExibitionDetailVM: ObservableObject {
     // MARK: - Inits
     init(venueAndExibitionVM: VenueAndExibitionCellVM) {
         self.venueAndExibitionVM = venueAndExibitionVM
-        self.isAddedToAWishlist = venueAndExibitionVM.isAddedToWish // TODO: - Paja fix this...
+        self.isAddedToAWishlist = venueAndExibitionVM.isAddedToWish
         self.image = venueAndExibitionVM.image
     }
 }
